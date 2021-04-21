@@ -22,3 +22,12 @@ Thus, the validator can use this utility as an additional monitoring tool in con
 To run the ready build fo Windows x64, unzip win_x64.rar
 
 More updates soon. 
+
+To get chat_id:
+1)Get the list of updates for your BOT:
+https://api.telegram.org/bot<YourBOTToken>/getUpdates
+Example: https://api.telegram.org/bot123456789:jbd78sadvbdy63d37gda37bd8/getUpdates
+2) Look for the "chat" object
+3) Use the "id" of the "chat" object to send your messages.
+More detailed info about telegram APIs:
+https://core.telegram.org/bots/api        
